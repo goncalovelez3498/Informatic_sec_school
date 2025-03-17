@@ -1,0 +1,50 @@
+name: my_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  material_color_utilities: 0.11.1
+  async: ^2.12.0
+  fake_async: ^1.3.2
+  leak_tracker: ^10.0.8
+  cupertino_icons: ^1.0.8
+  window_size: ^0.1.0
+  flutter_native_splash: ^2.2.19
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1 # <-- Add this line
+  fl_chart: ^0.50.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png" # <-- Muda este caminho para a tua nova imagem
+  adaptive_icon_background: "#ffffff" # Opcional para Android
+  adaptive_icon_foreground: "assets/icon_foreground.png" # Opcional para Android
+
+flutter:
+  assets:
+  - assets/background.png
+  - assets/logo.png
+  - assets/logout.png
+  - assets/profile_picture.png
+  - assets/testprofilepicture.png
+  - assets/goncaloprofile.jpg
+  - assets/antonioprofilepicture.jpg
+  - assets/news_image.jpg
+
+flutter_native_splash:
+  color: "#ffffff" # Cor de fundo
+  image: assets/logo.png # Caminho para o logótipo
+  android: true
+  ios: true

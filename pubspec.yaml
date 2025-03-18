@@ -29,8 +29,8 @@ flutter_icons:
   android: true
   ios: true
   image_path: "assets/icon.png" # <-- Muda este caminho para a tua nova imagem
-  adaptive_icon_background: "#ffffff" # Opcional para Android
-  adaptive_icon_foreground: "assets/icon_foreground.png" # Opcional para Android
+  adaptive_icon_background: "#assets/adaptive_icon_background.png" # Cor de fundo para Android
+  adaptive_icon_foreground: "assets/app_icon_foreground.png" # Ícone de primeiro plano
 
 flutter:
   assets:
